@@ -35,7 +35,7 @@ const aiController = {
                 model: "gemini-2.5-flash"
             });
 
-            console.log("KEY =", process.env.GEMINI_API_KEY);
+            /*console.log("KEY =", process.env.GEMINI_API_KEY);*/
 
             const result = await model.generateContent(
                 `You are an IT Helpdesk Assistant.
